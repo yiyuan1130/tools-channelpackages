@@ -3,7 +3,7 @@
 ### 使用说明
 1. 打出一个白包，命名为：项目名-blank-版本号.apk，例如：testgame-blank-v1.2.0.apk
 2. 查看channel.text中渠道名字列表，按需求增删
-3. 打开termianl，进入ChannelSignTool目录
+3. 打开termianl，进入tools-channelpackage目录
 4. 执行shell命令：python ./main/ChannelSign.py [第一步的白包路径] [重签名后所有的apk要保存到的路径]
    例如：python ./main/ChannelSign.py /Users/liyiyuan/Desktop/testgame-blank-v1.1.0.apk /Users/liyiyuan/Projects/APKs/testgame
 
