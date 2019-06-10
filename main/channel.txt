@@ -1,0 +1,7 @@
+huawei
+oppo
+vivo
+xiaomi
+tencent
+meizu
+360
