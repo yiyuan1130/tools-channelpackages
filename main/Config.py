@@ -15,6 +15,9 @@ BASE_APK_COMPILE_FLODER = str()
 # 项目中要修改的 Config.json 文件
 CONFIG_PATH = str()
 
+# apktool的yml文件
+APKTOOL_YML_PATH = str()
+
 # 修改后编译出的代签名的 apk 路径
 NEW_UNSIGNED_APK_PATH = str()
 

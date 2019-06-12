@@ -29,6 +29,7 @@ if __name__ == '__main__':
 		CompileSignManager.decompile_base_apk()
 		# CompileSignManager.dex2jar() # 不需要改jar里面的脚本，所以省略
 		AlterManager.change_config(target_channel)
+		AlterManager.change_apktool_yml()
 		CompileSignManager.compile_base_apk()
 		CompileSignManager.resign_new_apk(target_channel)
 	OperationManager.remove_useless()
